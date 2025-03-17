@@ -10,7 +10,7 @@ async function genurl(req, res) {
         Clicks: [],  // Ensure field names match the schema
     });
 
-    const baseUrl = `http://localhost:8005/url`;  // Use localhost
+    const baseUrl = `https://url-shortner-vashista.onrender.com/`;  // Use localhost
     const shortUrl = `${baseUrl}/${short}`;  // Full shortened URL
 
     return res.json({ shortUrl });  // Return the full shortened URL
