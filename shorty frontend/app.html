@@ -69,7 +69,7 @@
             event.preventDefault();
             const url = document.getElementById('urlInput').value;
             try {
-                const response = await fetch('http://localhost:8005/url', {  // Use localhost
+                const response = await fetch('https://url-shortner-vashista.onrender.com/url', {  // Use localhost
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
